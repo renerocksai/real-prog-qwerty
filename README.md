@@ -48,20 +48,20 @@ Eventually, I decided on which symbols to move off the number row:
 This results in the following re-mapping of the top-row:
 
 LEFT:
-- <key>=</key> - <key>=</key>
-- <key>1</key> - <key>*</key>
-- <key>2</key> - <key>[</key>
-- <key>3</key> - <key>{</key>
-- <key>4</key> - <key>(</key>
-- <key>5</key> - <key>#</key>
+- <kbd>=</kbd> - <kbd>=</kbd>
+- <kbd>1</kbd> - <kbd>*</kbd>
+- <kbd>2</kbd> - <kbd>[</kbd>
+- <kbd>3</kbd> - <kbd>{</kbd>
+- <kbd>4</kbd> - <kbd>(</kbd>
+- <kbd>5</kbd> - <kbd>#</kbd>
 
 RIGHT:
-- <key>6</key> - <key>^</key>
-- <key>7</key> - <key>)</key>
-- <key>8</key> - <key>}</key>
-- <key>9</key> - <key>]</key>
-- <key>0</key> - <key>$</key>
-- <key>-</key> - <key>-</key>
+- <kbd>6</kbd> - <kbd>^</kbd>
+- <kbd>7</kbd> - <kbd>)</kbd>
+- <kbd>8</kbd> - <kbd>}</kbd>
+- <kbd>9</kbd> - <kbd>]</kbd>
+- <kbd>0</kbd> - <kbd>$</kbd>
+- <kbd>-</kbd> - <kbd>-</kbd>
 
 The numerical digits 0-9 are accessible by pressing the SHIFT key and the respective number key.
 
