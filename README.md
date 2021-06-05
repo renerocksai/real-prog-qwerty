@@ -1,5 +1,6 @@
 # Real Programmer's QWERTY
 
+If you're in a hurry, go straight to [installing it](#installing-it).
 
 
 # Motivation 
