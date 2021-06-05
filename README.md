@@ -19,7 +19,7 @@ So clearly, the US keyboard layout had been an improvement already. But it took 
 
 
 
-## The idea of going full-programmer layout
+## The idea of going full-programmer (keyboard layout)
 
 In short:
 
@@ -70,10 +70,10 @@ RIGHT:
 - <kbd>-</kbd> -> <kbd>-</kbd>
 
 Extra mappings:
-- <kbd>6</kbd> -> <kbd>^</kbd>
-- <kbd>7</kbd> -> <kbd>)</kbd>
-- <kbd>8</kbd> -> <kbd>}</kbd>
-- <kbd>9</kbd> -> <kbd>]</kbd>
+- <kbd>\</kbd> (below the X) -> <kbd>%</kbd>
+- <kbd>|</kbd> (below the X) -> <kbd>@</kbd>
+- <kbd>[</kbd> -> <kbd>&</kbd>
+- <kbd>]</kbd> -> <kbd>!</kbd>
 
 The numerical digits 0-9 are accessible by pressing the SHIFT key and the respective number key.
 
