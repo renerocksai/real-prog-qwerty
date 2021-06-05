@@ -1,0 +1,63 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "real-prog-qwerty" {
+
+    name[Group1]= "English (Real Programmres Qwerty)";
+
+    key <TLDE> {	[     grave,	asciitilde	]	};
+    key <AE01> {	[	  asterisk,	1 		]	};
+    key <AE02> {	[	  bracketleft,	2		]	};
+    key <AE03> {	[	  braceleft,	3	]	};
+    key <AE04> {	[	  parenleft,	4		]	};
+    key <AE05> {	[	  numbersign,	5		]	};
+    key <AE06> {	[	  asciicircum,	6	]	};
+    key <AE07> {	[	  parenright,	7	]	};
+    key <AE08> {	[	  braceright,	8	]	};
+    key <AE09> {	[	  bracketright,	9	]	};
+    key <AE10> {	[	  dollar,	0	]	};
+    key <AE11> {	[     minus,	underscore	]	};
+    key <AE12> {	[     equal,	plus		]	};
+
+    key <AD01> {	[	  q,	Q 		]	};
+    key <AD02> {	[	  w,	W		]	};
+    key <AD03> {	[	  e,	E		]	};
+    key <AD04> {	[	  r,	R		]	};
+    key <AD05> {	[	  t,	T		]	};
+    key <AD06> {	[	  y,	Y		]	};
+    key <AD07> {	[	  u,	U		]	};
+    key <AD08> {	[	  i,	I		]	};
+    key <AD09> {	[	  o,	O		]	};
+    key <AD10> {	[	  p,	P		]	};
+    key <AD11> {	[ ampersand,	percent	]	};
+    key <AD12> {	[ exclam,	at	]	};
+
+    key <AC01> {	[	  a,	A 		]	};
+    key <AC02> {	[	  s,	S		]	};
+    key <AC03> {	[	  d,	D		]	};
+    key <AC04> {	[	  f,	F		]	};
+    key <AC05> {	[	  g,	G		]	};
+    key <AC06> {	[	  h,	H		]	};
+    key <AC07> {	[	  j,	J		]	};
+    key <AC08> {	[	  k,	K		]	};
+    key <AC09> {	[	  l,	L		]	};
+    key <AC10> {	[ semicolon,	colon		]	};
+    key <AC11> {	[ apostrophe,	quotedbl	]	};
+
+    key <AB01> {	[	  z,	Z 		]	};
+    key <AB02> {	[	  x,	X		]	};
+    key <AB03> {	[	  c,	C		]	};
+    key <AB04> {	[	  v,	V		]	};
+    key <AB05> {	[	  b,	B		]	};
+    key <AB06> {	[	  n,	N		]	};
+    key <AB07> {	[	  m,	M		]	};
+    key <AB08> {	[     comma,	less		]	};
+    key <AB09> {	[    period,	greater		]	};
+    key <AB10> {	[     slash,	question	]	};
+
+    key <BKSL> {	[ backslash,         bar	]	};
+
+    key <LSGT> {	[ percent,	at	]	};
+};
+
+
+// TODO: find out what key the extra key below the  X is 
+//       could be LSGT
