@@ -80,7 +80,7 @@ The numerical digits 0-9 are accessible by pressing the SHIFT key and the respec
 
 The reason behind `^` and `$` being where they are, is: in vim, `^` takes you to the beginning of a line and `$` takes you to the end. That makes these keys' new locations easy to remember.
 
-
+![](real-programmers-qwerty.png)
 
 # Installing it
 
