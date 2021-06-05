@@ -70,7 +70,7 @@ RIGHT:
 - <kbd>-</kbd> -> <kbd>-</kbd>
 
 Extra mappings:
-- <kbd>\</kbd> (below the X) -> <kbd>%</kbd>
+- <kbd>\\</kbd> (below the X) -> <kbd>%</kbd>
 - <kbd>|</kbd> (below the X) -> <kbd>@</kbd>
 - <kbd>[</kbd> -> <kbd>&</kbd>
 - <kbd>]</kbd> -> <kbd>!</kbd>
