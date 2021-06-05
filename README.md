@@ -31,12 +31,12 @@ Since parens are already present on the number row, only four symbols have to be
 
 So this boils down to the following mapping:
 
-- 2 - `[` 
-- 3 - `{`  
-- 4 - `(`
-- 7 - `)`
-- 8 - `}`
-- 9 - `]`
+- 2 -> `[` 
+- 3 -> `{`  
+- 4 -> `(`
+- 7 -> `)`
+- 8 -> `}`
+- 9 -> `]`
 
 Eventually, I decided on which symbols to move off the number row:
 
@@ -48,20 +48,20 @@ Eventually, I decided on which symbols to move off the number row:
 This results in the following re-mapping of the top-row:
 
 LEFT:
-- <kbd>=</kbd> - <kbd>=</kbd>
-- <kbd>1</kbd> - <kbd>*</kbd>
-- <kbd>2</kbd> - <kbd>[</kbd>
-- <kbd>3</kbd> - <kbd>{</kbd>
-- <kbd>4</kbd> - <kbd>(</kbd>
-- <kbd>5</kbd> - <kbd>#</kbd>
+- <kbd>=</kbd> -> <kbd>=</kbd>
+- <kbd>1</kbd> -> <kbd>*</kbd>
+- <kbd>2</kbd> -> <kbd>[</kbd>
+- <kbd>3</kbd> -> <kbd>{</kbd>
+- <kbd>4</kbd> -> <kbd>(</kbd>
+- <kbd>5</kbd> -> <kbd>#</kbd>
 
 RIGHT:
-- <kbd>6</kbd> - <kbd>^</kbd>
-- <kbd>7</kbd> - <kbd>)</kbd>
-- <kbd>8</kbd> - <kbd>}</kbd>
-- <kbd>9</kbd> - <kbd>]</kbd>
-- <kbd>0</kbd> - <kbd>$</kbd>
-- <kbd>-</kbd> - <kbd>-</kbd>
+- <kbd>6</kbd> -> <kbd>^</kbd>
+- <kbd>7</kbd> -> <kbd>)</kbd>
+- <kbd>8</kbd> -> <kbd>}</kbd>
+- <kbd>9</kbd> -> <kbd>]</kbd>
+- <kbd>0</kbd> -> <kbd>$</kbd>
+- <kbd>-</kbd> -> <kbd>-</kbd>
 
 The numerical digits 0-9 are accessible by pressing the SHIFT key and the respective number key.
 
