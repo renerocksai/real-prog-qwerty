@@ -1,6 +1,6 @@
 # Real Programmer's QWERTY
 
-If you're in a hurry, go straight to [installing it](#installing-it).
+If you're in a hurry, [see what it looks like](#what-it-looks-like) or go straight to [installing it](#installing-it).
 
 
 # Motivation 
@@ -79,6 +79,8 @@ Extra mappings:
 The numerical digits 0-9 are accessible by pressing the SHIFT key and the respective number key.
 
 The reason behind `^` and `$` being where they are, is: in vim, `^` takes you to the beginning of a line and `$` takes you to the end. That makes these keys' new locations easy to remember.
+
+## What it looks like 
 
 ![](real-programmers-qwerty.png)
 
