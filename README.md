@@ -82,6 +82,8 @@ The reason behind `^` and `$` being where they are, is: in vim, `^` takes you to
 
 ![](real-programmers-qwerty.png)
 
+![](https://kinesis-ergo.com/wp-content/uploads/kb605-oh.jpg)
+
 # Installing it
 
 These instructions have been tested on Ubuntu 20.04 LTS.
@@ -94,7 +96,7 @@ These instructions have been tested on Ubuntu 20.04 LTS.
 If I am feeling funny, maybe one day I will look at ThePrimeagen's repo and check out how to do this on Windows. To be honest, though, optimizing for productivity AND using Windows doesn't strike me as a good combination.
 
 ## A note on i3
-The best part of this is that I did not have to change my i3 config at all. i3 handles keyboard events directly, so $mod+SHIFT+1 keeps working as expected.
+The best part of this is that I did not have to change my [i3 window manager](https://i3wm.org) config at all. i3 handles keyboard events directly, so $mod+SHIFT+1 keeps working as expected.
 
 
 
