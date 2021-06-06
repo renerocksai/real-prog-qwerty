@@ -91,7 +91,7 @@ The reason behind `^` and `$` being where they are, is: in vim, `^` takes you to
 These instructions have been tested on Ubuntu 20.04 LTS.
 
 - clone this repository and cd into it
-- link the layout into the right place: `sudo ln -s /usr/share/X11/xkb/real-prog-qerty real-prog-qwerty`
+- link the layout into the right place: `sudo ln -s $(pwd)/real-prog-qerty /usr/share/X11/xkb/real-prog-qerty`
 - activate the layout by `setxkbmap -layout real-prog-qwerty`
 - revert it by invoking `setxkbmap -layout us` (provided you were using a US layout before)
 
