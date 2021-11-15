@@ -88,7 +88,7 @@ Here is my current thumb cluster layout:
 
 ![](thumb-cluster.png)
 
-Note that a consequence, I lack the following useless keys:
+Note that as a consequence, my keyboard lack the following useless keys:
 - Windows / Mac key
 - HOME and END keys
 - PGUP / PGDOWN keys
@@ -99,11 +99,35 @@ ESC, then SHIFT is a combination I use very frequently, as a neovim user.  ESC g
 
 With above re-mappings, I find myself staying on the home row literally all the time which is a difference that feels like super-powers.  It is a game changer.  I am glad I stopped using CAPS LOCK for ESC stuffs.  
 
-Keys I don't really use, are the right CTRL, ALT, SHIFT, and ESC.  They are mapped the way they are for symmetry reasons for the odd case I need them.  Transfering symmetrical movements from one hand to the other seems to work well for me - it's not like learning a complete key mapping.  It is as if my right thumb asks, "What would left thumb do?"
+Keys I don't really use, are CTRL, ALT, SHIFT, and ESC on the right thumb cluster.  They are mapped the way they are for symmetry reasons for the odd case I need them.  Transfering symmetrical movements from one hand to the other seems to work well for me - it's not like learning a complete key mapping.  It is as if my right thumb asks, "What would left thumb do?"
 
 Since I don't use the right thumb cluster that much, I might one day re-introduce one of the gone keys if a pressing need for that arises.
 
 
+### Navigating without the mouse - ever
+
+The following rambling is more related to my setup than the keyboard layout, but it fits in nicely.  When speaking of staying on the home row...
+
+So far, the most productive setup I have encountered is based on the following essentials:
+
+- Linux (duh!) - go for Ubuntu if you have a life, there's really no shame in using it
+- i3 window manager
+- tmux
+- NeoVim - or at least vim!
+
+Here's how that works out - staying on the homerow:
+- moving the cursor in vim: H, J, K, L
+- moving between splits in vim: CTRL + H, J, K, L
+- moving between windows in i3: ALT + H, J, K, L
+- re-arranging windows in i3: SHIFT + ALT + H, J, K, L
+- moving between splits in tmux: CTRL + B, then H, J, K, L
+- bonus mention: Vimium browser plugin:
+    - scrolling in the browser: H, J, K, L
+    - navigating browser history: SHIFT + H, L
+    - navigating browser tabs: SHIFT + J, K
+
+Speaking of browsers: With the firenvim browser plugin, I can even use neovim and the muscle memory that comes with it, in the browser: suddenly, writing business E-Mails in Outlook on the web is not a cringe experience anymore.  A quick shortcut brings up the emoji picker, other shortcuts insert German Umlauts.  I have instant access to my daily notes for yanking and pasting.  I am loving it.  And it all started with optimizing my keyboard layout.
+ 
 ## What it looks like 
 
 ![](real-programmers-qwerty.png)
