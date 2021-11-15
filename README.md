@@ -86,7 +86,7 @@ The keyboard I use, a [Kinesis Advantage 2](https://kinesis-ergo.com/keyboards/a
 
 Here is my current thumb cluster layout:
 
-![](real-programmers-qwerty.png)
+![](thumb-cluster.png)
 
 Note that a consequence, I lack the following useless keys:
 - Windows / Mac key
