@@ -127,7 +127,9 @@ Here's how that works out - staying on the homerow:
     - navigating browser history: SHIFT + H, L
     - navigating browser tabs: SHIFT + J, K
 
-Speaking of browsers: With the [firenvim](https://github.com/glacambre/firenvim) browser plugin, I can even use neovim and the muscle memory that comes with it, in the browser: suddenly, writing business E-Mails in Outlook on the web is not a cringe experience anymore.  A quick shortcut brings up the emoji picker, other shortcuts insert German Umlauts.  I have instant access to my daily notes for yanking and pasting.  I am loving it.  And it all started with optimizing my keyboard layout.
+Speaking of browsers: With the [firenvim](https://github.com/glacambre/firenvim) browser plugin, I can even use neovim and the muscle memory that comes with it, in the browser: suddenly, writing business E-Mails in Outlook on the web is not a cringe experience anymore.  A quick shortcut brings up the emoji picker, other shortcuts insert German Umlauts.  I have instant access to my daily notes for yanking and pasting.  I am loving it.  
+
+And it all started with optimizing my keyboard layout - for programming 😁. 
  
 ## What it looks like 
 
