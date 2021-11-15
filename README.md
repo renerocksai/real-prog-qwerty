@@ -111,9 +111,9 @@ The following rambling is more related to my setup than the keyboard layout, but
 So far, the most productive setup I have encountered is based on the following essentials:
 
 - Linux (duh!) - go for Ubuntu if you have a life, there's really no shame in using it
-- i3 window manager
-- tmux
-- NeoVim - or at least vim!
+- [i3 window manager](https://i3wm.org)
+- [tmux](https://github.com/tmux/tmux) - available on every sane Linux Distro
+- [NeoVim](https://neovim.io) - or at least vim!
 
 Here's how that works out - staying on the homerow:
 - moving the cursor in vim: H, J, K, L
@@ -121,12 +121,12 @@ Here's how that works out - staying on the homerow:
 - moving between windows in i3: ALT + H, J, K, L
 - re-arranging windows in i3: SHIFT + ALT + H, J, K, L
 - moving between splits in tmux: CTRL + B, then H, J, K, L
-- bonus mention: Vimium browser plugin:
+- bonus mention: [Vimium](https://vimium.github.io) browser plugin:
     - scrolling in the browser: H, J, K, L
     - navigating browser history: SHIFT + H, L
     - navigating browser tabs: SHIFT + J, K
 
-Speaking of browsers: With the firenvim browser plugin, I can even use neovim and the muscle memory that comes with it, in the browser: suddenly, writing business E-Mails in Outlook on the web is not a cringe experience anymore.  A quick shortcut brings up the emoji picker, other shortcuts insert German Umlauts.  I have instant access to my daily notes for yanking and pasting.  I am loving it.  And it all started with optimizing my keyboard layout.
+Speaking of browsers: With the [firenvim](https://github.com/glacambre/firenvim) browser plugin, I can even use neovim and the muscle memory that comes with it, in the browser: suddenly, writing business E-Mails in Outlook on the web is not a cringe experience anymore.  A quick shortcut brings up the emoji picker, other shortcuts insert German Umlauts.  I have instant access to my daily notes for yanking and pasting.  I am loving it.  And it all started with optimizing my keyboard layout.
  
 ## What it looks like 
 
