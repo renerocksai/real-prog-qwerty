@@ -80,6 +80,57 @@ The numerical digits 0-9 are accessible by pressing the SHIFT key and the respec
 
 The reason behind `^` and `$` being where they are, is: in vim, `^` takes you to the beginning of a line and `$` takes you to the end. That makes these keys' new locations easy to remember.
 
+## Thumb clusters
+
+The keyboard I use, a [Kinesis Advantage 2](https://kinesis-ergo.com/keyboards/advantage2-keyboard/), features thumb-clusters.  "Use stronger thumbs rather than weaker pinkies to access heavily used keys like Space, Backspace, and Enter" is how Kinesis explain it.
+
+Here is my current thumb cluster layout:
+
+![](thumb-cluster.png)
+
+Note that as a consequence, my keyboard lacks the following useless keys:
+- Windows / Mac key
+- HOME and END keys
+- PGUP / PGDOWN keys
+
+While I originally had mapped the ESC key onto the useless CAPS LOCK key, I noticed that reaching for the CAPS LOCK key with my pinkie is a sub-optimal solution for a frequently used key.  It leads to my other fingers slightly moving to the left, following the pinkie - slightly leaving the home row.  It gets even worse with the TAB key, where often my palms leave their resting position.  So I eventually remapped CAPS LOCK to TAB, which I only use in browsers or for completion in neovim (which is something I contemplate changing) or the shell.
+
+ESC, then SHIFT is a combination I use very frequently, as a neovim user.  ESC gets me back to normal mode and SHIFT is used to press the colon key to enter command mode.  While I could get into the habit of pressing CTRL+C instead of ESC, I mapped the escape key onto the thumb cluster.  Above it, I also mapped the SHIFT key.  So to enter vim commands, my left thumb doesn't need to travel a lot.
+
+With above re-mappings, I find myself staying on the home row literally all the time which is a difference that feels like super-powers.  It is a game changer.  I am glad I stopped using CAPS LOCK for ESC stuffs.  
+
+Keys I don't really use, are CTRL, ALT, SHIFT, and ESC on the right thumb cluster.  They are mapped the way they are for symmetry reasons for the odd case I need them.  Transfering symmetrical movements from one hand to the other seems to work well for me - it's not like learning a completely new key mapping.  It is as if my right thumb asks, "What would left thumb do?"
+
+Since I don't use the right thumb cluster that much, I might one day re-introduce one of the gone keys if a pressing need arises.
+
+
+### Navigating without the mouse - ever
+
+The following rambling is more related to my setup than the keyboard layout, but it fits in nicely.  When speaking of staying on the home row...
+
+So far, the most productive setup I have encountered is based on the following essentials:
+
+- Linux (duh!) - go for Ubuntu if you have a life, there's really no shame in using it
+- [i3 window manager](https://i3wm.org)
+- [tmux](https://github.com/tmux/tmux) - available on every sane Linux Distro
+- [NeoVim](https://neovim.io) - or at least vim!
+
+Here's how that works out - staying on the homerow:
+- moving the cursor in vim: H, J, K, L
+- moving between splits in vim: CTRL + H, J, K, L
+- moving between windows in i3: ALT + H, J, K, L
+- re-arranging windows in i3: SHIFT + ALT + H, J, K, L
+- re-sizing windows in i3: R, then H, J, K, L, then ESC
+- moving between splits in tmux: CTRL + B, then H, J, K, L
+- bonus mention: [Vimium](https://vimium.github.io) browser plugin:
+    - scrolling in the browser: H, J, K, L
+    - navigating browser history: SHIFT + H, L
+    - navigating browser tabs: SHIFT + J, K
+
+Speaking of browsers: With the [firenvim](https://github.com/glacambre/firenvim) browser plugin, I can even use neovim and the muscle memory that comes with it, in the browser: suddenly, writing business E-Mails in Outlook on the web is not a cringe experience anymore.  A quick shortcut brings up the emoji picker, other shortcuts insert German Umlauts.  I have instant access to my daily notes for yanking and pasting.  I am loving it.  
+
+And it all started with optimizing my keyboard layout - for programming 😁. 
+ 
 ## What it looks like 
 
 ![](real-programmers-qwerty.png)
