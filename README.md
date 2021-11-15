@@ -88,20 +88,20 @@ Here is my current thumb cluster layout:
 
 ![](thumb-cluster.png)
 
-Note that as a consequence, my keyboard lack the following useless keys:
+Note that as a consequence, my keyboard lacks the following useless keys:
 - Windows / Mac key
 - HOME and END keys
 - PGUP / PGDOWN keys
 
-While I originally had mapped the ESC key onto the useless CAPS LOCK key, I noticed that reaching for the CAPS LOCK key with my pinkie is a sub-optimal solution for a key I use so frequently.  It leads to my other fingers slightly moving to the left, following the pinkie.  This gets even worse with the TAB key, where often my palms leave their resting position.  So I eventually remapped CAPS LOCK to TAB, which I only tend to use in browsers or for completion in neovim (which is something I contemplate changing). 
+While I originally had mapped the ESC key onto the useless CAPS LOCK key, I noticed that reaching for the CAPS LOCK key with my pinkie is a sub-optimal solution for a frequently used key.  It leads to my other fingers slightly moving to the left, following the pinkie - slightly leaving the home row.  It gets even worse with the TAB key, where often my palms leave their resting position.  So I eventually remapped CAPS LOCK to TAB, which I only use in browsers or for completion in neovim (which is something I contemplate changing) or the shell.
 
 ESC, then SHIFT is a combination I use very frequently, as a neovim user.  ESC gets me back to normal mode and SHIFT is used to press the colon key to enter command mode.  While I could get into the habit of pressing CTRL+C instead of ESC, I mapped the escape key onto the thumb cluster.  Above it, I also mapped the SHIFT key.  So to enter vim commands, my left thumb doesn't need to travel a lot.
 
 With above re-mappings, I find myself staying on the home row literally all the time which is a difference that feels like super-powers.  It is a game changer.  I am glad I stopped using CAPS LOCK for ESC stuffs.  
 
-Keys I don't really use, are CTRL, ALT, SHIFT, and ESC on the right thumb cluster.  They are mapped the way they are for symmetry reasons for the odd case I need them.  Transfering symmetrical movements from one hand to the other seems to work well for me - it's not like learning a complete key mapping.  It is as if my right thumb asks, "What would left thumb do?"
+Keys I don't really use, are CTRL, ALT, SHIFT, and ESC on the right thumb cluster.  They are mapped the way they are for symmetry reasons for the odd case I need them.  Transfering symmetrical movements from one hand to the other seems to work well for me - it's not like learning a completely new key mapping.  It is as if my right thumb asks, "What would left thumb do?"
 
-Since I don't use the right thumb cluster that much, I might one day re-introduce one of the gone keys if a pressing need for that arises.
+Since I don't use the right thumb cluster that much, I might one day re-introduce one of the gone keys if a pressing need arises.
 
 
 ### Navigating without the mouse - ever
