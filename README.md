@@ -120,6 +120,7 @@ Here's how that works out - staying on the homerow:
 - moving between splits in vim: CTRL + H, J, K, L
 - moving between windows in i3: ALT + H, J, K, L
 - re-arranging windows in i3: SHIFT + ALT + H, J, K, L
+- re-sizing windows in i3: R, then H, J, K, L, then ESC
 - moving between splits in tmux: CTRL + B, then H, J, K, L
 - bonus mention: [Vimium](https://vimium.github.io) browser plugin:
     - scrolling in the browser: H, J, K, L
