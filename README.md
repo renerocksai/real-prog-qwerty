@@ -142,7 +142,7 @@ And it all started with optimizing my keyboard layout - for programming 😁.
 These instructions have been tested on Ubuntu 20.04 LTS.
 
 - clone this repository and cd into it
-- link the layout into the right place: `sudo ln -s $(pwd)/real-prog-qerty /usr/share/X11/xkb/real-prog-qerty`
+- link the layout into the right place: `sudo ln -s /usr/share/X11/xkb/real-prog-qwerty real-prog-qwerty`
 - activate the layout by `setxkbmap -layout real-prog-qwerty`
 - revert it by invoking `setxkbmap -layout us` (provided you were using a US layout before)
 
