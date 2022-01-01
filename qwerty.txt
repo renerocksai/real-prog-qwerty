@@ -1,0 +1,11 @@
+[caps]>[tab]
+[lalt]>[delete]
+[home]>[lshift]
+[end]>[escape]
+[lctrl]>[lalt]
+[delete]>[lctrl]
+[rctrl]>[rwin]
+[rwin]>[rctrl]
+[pup]>[rshift]
+[pdown]>[escape]
+
