@@ -143,15 +143,70 @@ And it all started with optimizing my keyboard layout - for programming 😁.
 
 # Installing it
 
+**Note** to Advantage 2 users: I have put my [qwerty.txt](qwerty.txt) in this repository, which contains all my manual
+mappings, for Windows mode.
+
+## Ubuntu and the likes
+
 These instructions have been tested on Ubuntu 20.04 LTS.
 
 - clone this repository and cd into it
-- link the layout into the right place: `sudo ln -s /usr/share/X11/xkb/real-prog-qwerty real-prog-qwerty`
-- activate the layout by `setxkbmap -layout real-prog-qwerty`
-- revert it by invoking `setxkbmap -layout us` (provided you were using a US layout before)
+- link the layout into the right place:
 
-**Note** to Advantage 2 users: I have put my [qwerty.txt](qwerty.txt) in this repository, which contains all my manual
-mappings, for Windows mode.
+```console
+sudo ln -s /usr/share/X11/xkb/real-prog-qwerty real-prog-qwerty
+```
+
+### Using it
+
+```console
+# activate the layout
+setxkbmap -layout real-prog-qwerty
+
+# switch back to us layout
+setxkbmap -layout us
+```
+
+## NixOS
+
+Congrats if you're running [NixOS](https://nixos.org)!
+
+Copy the symbols definition into place:
+
+```console
+sudo -i
+mkdir -p /etc/nixos/xkb/symbols
+cp real-prog-qwerty /etc/nixos/xkb/symbols/
+```
+
+... and then insert the following into your `configuration.nix`:
+
+```nix
+  services.xserver.extralayouts.real-prog-qwerty = {
+    description = "real programmer's qwerty";
+    languages = [ "eng" ];
+    symbolsfile = /etc/nixos/xkb/symbols/real-prog-qwerty;
+  };
+```
+
+Activate the new nixos config with:
+
+```console
+nixos-rebuild switch
+reboot   # not sure it's necessary but will certainly restart X
+```
+
+### Using it
+
+```console
+# activate the layout
+setxkbmap -layout real-prog-qwerty
+
+# switch back to us layout
+setxkbmap -layout us
+```
+
+## Windows (not)
 
 If I am feeling funny, maybe one day I will look at ThePrimeagen's repo and check out how to do this on Windows. To be honest, though, optimizing for productivity AND using Windows doesn't strike me as a good combination.
 
