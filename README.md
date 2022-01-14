@@ -96,11 +96,24 @@ Note that as a consequence, my keyboard lacks the following useless keys:
 **Note:** I re-introduced both the delete key and the Windows key. The DEL key is super-important if I want to get into
 my computer's BIOS. The WIN key can be useful for an extra key layer in i3 or other software.
 
-While I originally had mapped the ESC key onto the useless CAPS LOCK key, I noticed that reaching for the CAPS LOCK key with my pinkie is a sub-optimal solution for a frequently used key.  It leads to my other fingers slightly moving to the left, following the pinkie - slightly leaving the home row.  It gets even worse with the TAB key, where often my palms leave their resting position.  So I eventually remapped CAPS LOCK to TAB, which I only use in browsers or for completion in neovim (which is something I contemplate changing) or the shell.
+### The many uses of the CAPS-LOCK key
+
+While originally I had mapped the ESC key onto the useless CAPS LOCK key, I noticed that reaching for the CAPS LOCK key with my pinkie is a sub-optimal solution for a frequently used key.  It leads to my other fingers slightly moving to the left, following the pinkie - slightly leaving the home row.  It gets even worse with the TAB key, where often my palms leave their resting position.  So I eventually remapped CAPS LOCK to TAB, which I only use in browsers or for completion in neovim (which is something I contemplate changing) or the shell.
 
 ESC, then SHIFT is a combination I use very frequently, as a neovim user.  ESC gets me back to normal mode and SHIFT is used to press the colon key to enter command mode.  While I could get into the habit of pressing CTRL+C instead of ESC, I mapped the escape key onto the thumb cluster.  Above it, I also mapped the SHIFT key.  So to enter vim commands, my left thumb doesn't need to travel a lot.
 
+As a further improvement, I simply mapped <kbd>;</kbd> to <kbd>:</kbd> in normal mode in neovim. No more SHIFT-ing to
+enter command mode.
+
 With above re-mappings, I find myself staying on the home row literally all the time which is a difference that feels like super-powers.  It is a game changer.  I am glad I stopped using CAPS LOCK for ESC stuffs.
+
+Further down the road, I discovered that the Advantage2 offers a "keypad" layer which can be totally customized. **AN EXTRA LAYER!!!** This layer comes in super handy! It allows having all the hard-to-reach symbols in or close to the home row. I configured it this way:
+
+- numeric digits reachable without SHIFT
+- symbol row similar to "normal" mode, but also including <kbd><</kbd> and <kbd>></kbd>
+- hard to reach symbols like <kbd>%</kbd>, <kbd>&</kbd>, <kbd>`</kbd>, <kbd>~</kbd> at easier-to-reach and easy-to-remember places
+
+To toggle between the new layer and the normal layer, I re-mapped CAPS-LOCK once again :smile:.
 
 Keys I don't really use, are CTRL, ALT, SHIFT, and ESC on the right thumb cluster.  They are mapped the way they are for symmetry reasons for the odd case I need them.  Transfering symmetrical movements from one hand to the other seems to work well for me - it's not like learning a completely new key mapping.  It is as if my right thumb asks, "What would left thumb do?"
 
@@ -139,12 +152,18 @@ And it all started with optimizing my keyboard layout - for programming 😁.
 
 ![](real-programmers-qwerty.png)
 
+---
+
+![](keypad-layer.png)
+
+---
+
 ![](https://kinesis-ergo.com/wp-content/uploads/kb605-oh.jpg)
 
 # Installing it
 
-**Note** to Advantage 2 users: I have put my [qwerty.txt](qwerty.txt) in this repository, which contains all my manual
-mappings, for Windows mode.
+**Note** to Advantage 2 users: I put my [qwerty.txt](qwerty.txt) in this repository, which contains all my manual
+mappings, including the second/keypad layer, for "Win" QWERTY mode.
 
 ## Ubuntu and the likes
 
