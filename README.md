@@ -158,7 +158,8 @@ And it all started with optimizing my keyboard layout - for programming 😁.
 
 ---
 
-![](https://kinesis-ergo.com/wp-content/uploads/kb605-oh.jpg)
+<!-- ![](https://kinesis-ergo.com/wp-content/uploads/kb605-oh.jpg) -->
+![](20220329_002139.jpg)
 
 # Installing it
 
