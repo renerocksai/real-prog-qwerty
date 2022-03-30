@@ -42,8 +42,8 @@
 {lshift}{0}>{speed5}{0}
 {\}>{speed5}{-rshift}{3}{+rshift}
 {lshift}{bspace}>{speed5}{delete}
-{obrack}>{speed5}{-shift}{7}{+shift}
-{lshift}{obrack}>{speed5}{-shift}{5}{+shift}
-{cbrack}>{speed5}{-shift}{1}{+shift}
-{lshift}{cbrack}>{speed5}{-shift}{2}{+shift}
-{kpenter1}>{speed5}{-shift}{;}{+shift}
+{obrack}>{speed5}{-rshift}{7}{+rshift}
+{lshift}{obrack}>{speed5}{-rshift}{5}{+rshift}
+{cbrack}>{speed5}{-rshift}{1}{+rshift}
+{lshift}{cbrack}>{speed5}{-rshift}{2}{+rshift}
+{kpenter1}>{speed5}{-rshift}{;}{+rshift}
