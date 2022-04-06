@@ -10,6 +10,10 @@
 [pdown]>[escape]
 [caps]>[kptoggle]
 [kp-caps]>[kptoggle]
+[up]>[down]
+[kp-up]>[down]
+[down]>[up]
+[kp-down]>[up]
 {kp-1}>{-Lshift}{1}{+Lshift}
 {kp-2}>{-Lshift}{2}{+Lshift}
 {kp-3}>{-Lshift}{3}{+Lshift}
