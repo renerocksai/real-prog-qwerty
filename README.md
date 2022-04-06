@@ -163,8 +163,12 @@ And it all started with optimizing my keyboard layout - for programming 😁.
 
 # Installing it
 
-**Note** to Advantage 2 users: I put my [qwerty.txt](qwerty.txt) in this repository, which contains all my manual
+**Note** to Advantage 2 users: I put my [qwerty.txt](Kinesis/qwerty.txt) in this repository, which contains all my manual
 mappings, including the second/keypad layer, for "Win" QWERTY mode.
+
+There is also [qwerty-full.txt](Kinesis/qwerty-full.txt) which remaps the whole
+layout on the kinesis but has some drawbacks. Notably keys mapped using a macro
+will not repeat when held down.
 
 ## Ubuntu and the likes
 
