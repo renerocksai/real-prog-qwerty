@@ -168,7 +168,9 @@ mappings, including the second/keypad layer, for "Win" QWERTY mode.
 
 There is also [qwerty-full.txt](Kinesis/qwerty-full.txt) which remaps the whole
 layout on the kinesis but has some drawbacks. Notably keys mapped using a macro
-will not repeat when held down.
+will not repeat when held down and will act like their original value when part
+of a shortcut. e.g. <kbd>CTRL+*</kbd> will actually enter <kbd>CTRL+1</kbd> as
+the <kbd>1</kbd> to <kbd>*</kbd> macro only works when it's pressed alone.
 
 ## Ubuntu and the likes
 
