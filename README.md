@@ -166,9 +166,13 @@ And it all started with optimizing my keyboard layout - for programming 😁.
 **Note** to Advantage 2 users: I put my [qwerty.txt](Kinesis/qwerty.txt) in this repository, which contains all my manual
 mappings, including the second/keypad layer, for "Win" QWERTY mode.
 
-There is also [qwerty-full.txt](Kinesis/qwerty-full.txt) which remaps the whole
-layout on the kinesis but has some drawbacks. Notably keys mapped using a macro
-will not repeat when held down.
+There is also [qwerty-full.txt](Kinesis/qwerty-full.txt)  and
+[qwerty-full-uk.txt](Kinesis/qwerty-full-uk.txt) which remap the whole layout on
+the kinesis but has some drawbacks. Notably keys mapped using a macro will not
+repeat when held down and will act like their original value when part of a
+shortcut. e.g. <kbd>CTRL+*</kbd> will actually enter <kbd>CTRL+1</kbd> as the
+<kbd>1</kbd> to <kbd>*</kbd> macro only works when it's pressed alone.  
+The UK version looks [like this](real-programmers-qwerty-uk.png)
 
 ## Ubuntu and the likes
 
